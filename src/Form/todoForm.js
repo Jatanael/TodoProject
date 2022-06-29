@@ -1,25 +1,24 @@
 import React from "react";
-import { FaPlus } from "react-icons/fa";
 import "./form.css";
+import Container from "../containerForms/container";
 
 const TodoForm = (props) => {
+  /* const newTodo = {
+    id: new Date().getTime(),
+    text: todo,
+    completed: false,
+  }; */
+
+  /* setTodos([...todos].concat(newTodo));
+  setTodo(""); */
   return (
     <div className="container">
-      <form>
-        <label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Add a task here..."
-          />
-          <div className="button">
-            <button className="button-icon">
-              <FaPlus className="icon" color="white" />
-            </button>
-          </div>
-        </label>
-      </form>
+      <Container />
+      {/* <>
+      {todos.map((todo) => (
+        <div>{todo.text}<div/>
+      ))}
+      </> */}
     </div>
   );
 };

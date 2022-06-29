@@ -1,0 +1,31 @@
+form {
+    justify-content: space-between;
+}
+
+
+input {
+    font-size: 12px;
+    width: 88%;
+    height: 100%;
+    padding: 11px 9px;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+label{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: sans-serif;
+    width: 300px;
+    height: auto;
+    border:2px solid #1f6feb;
+    border-radius: 4px;
+    outline: none;
+}
+.todo {
+    align-items: center;
+}
+
+

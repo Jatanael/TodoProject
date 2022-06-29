@@ -5,9 +5,7 @@ import TodoForm from "./Form/todoForm";
 function App() {
   return (
     <section>
-      <>
-        <TodoForm />
-      </>
+      <TodoForm />
     </section>
   );
 }
